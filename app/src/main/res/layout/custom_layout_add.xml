@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:id="@+id/edt_room_name"
+        android:hint="Name of Room"
+        android:paddingLeft="8dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="addRoom"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="@color/orange"
+        android:id="@+id/btn_add_room"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:text="@string/add_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

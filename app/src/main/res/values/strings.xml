@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Monitoring Temperature Gas Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="gas">Gas</string>
+    <string name="turn_on_fan">Turn on Fan</string>
+    <string name="turn_off_fan">Turn off Fan</string>
+    <string name="turn_on_mist">Turn on mist</string>
+    <string name="turn_off_mist">Turn off mist</string>
+    <string name="turn_on_fan1">Turn on fan1</string>
+    <string name="turn_off_fan1">Turn off fan1</string>
+    <string name="add_room">Add Room</string>
+    <string name="room_list">Room List</string>
+</resources>

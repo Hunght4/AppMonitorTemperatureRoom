@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".HumidityActivity">
+    <!--
+    <Button
+        android:layout_alignParentTop="true"
+        android:id="@+id/btn_humidity_back"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="←"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/humidity"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/gtv_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background2"
+            android:gravity="center"
+            android:text="80 %"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginRight="5dp"
+                android:padding="20dp"
+                android:id="@+id/btn_turn_on_mist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/turn_on_mist"
+                android:background="@drawable/my_button_border"
+                android:textColor="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:layout_marginRight="5dp"
+                android:padding="20dp"
+                android:id="@+id/btn_turn_off_mist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/turn_off_mist"
+                android:background="@drawable/my_button_border"
+                android:textColor="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_mist"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="Mist is OFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
